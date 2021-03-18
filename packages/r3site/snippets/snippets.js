@@ -48,3 +48,20 @@ export const Navbar= ({ items = [] }) => (
 export const Container = ({ children, classes }) => (
     <div className={ classes }>{ children }</div>
 )
+
+export const Jumbotron = ({ header, body, footer }) => {
+    const Header = () => <div className="jumbo-header">{ header }</div>
+    const Body = () => <div className="jumbo-body">{ body }</div>
+    const Footer = () => <div className="jumbo-footer">{ footer }</div>
+    const Content = () => (
+        <>
+            <Header />
+            <Body />
+            <Footer />
+        </>
+    )
+
+    return(
+        <Container classes="jumbotron" ><Content /></Container>    
+    )
+}

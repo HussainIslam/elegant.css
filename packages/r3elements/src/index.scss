@@ -412,18 +412,18 @@ h6 {
 .jumbotron{
   width: 70vw;
   margin: 3rem auto;
-  border: 1px solid $color-light-orange;
   padding: $padding-high $padding-vvhigh;
-}
-
-.jumbo-header{
-
-}
-
-.jumbo-body{
-  margin: 2rem 0;
-}
-
-.jumbo-footer{
-  margin: 2rem 0;
+  box-shadow: 0 0 5px 2px $color-light-gray;
+  
+  .jumbo-header{
+    @extend h1;
+  }
+  
+  .jumbo-body{
+    margin: 2rem 0;
+  }
+  
+  .jumbo-footer{
+    margin: 2rem 0;
+  }
 }
