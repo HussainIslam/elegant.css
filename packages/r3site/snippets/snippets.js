@@ -44,3 +44,7 @@ export const Navbar= ({ items = [] }) => (
         }
     </ul>
 )
+
+export const Container = ({ children, classes }) => (
+    <div className={ classes }>{ children }</div>
+)

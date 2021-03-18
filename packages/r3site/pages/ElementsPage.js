@@ -4,6 +4,8 @@ import ButtonPage from './ButtonPage'
 import CardPage from './CardPage'
 import BreadcrumbPage from './BreadcrumbPage'
 import NavbarPage from './NavbarPage'
+import JumbotronPage from './JumbotronPage'
+
 
 const ElementsPage = () => {
     const { path, url } = useRouteMatch();
@@ -20,7 +22,8 @@ const ElementsPage = () => {
         new ElementRouteClass("buttons", ButtonPage, "Buttons"),
         new ElementRouteClass("cards", CardPage, "Cards"),
         new ElementRouteClass("breadcrumbs", BreadcrumbPage, "Breadcrumb"),
-        new ElementRouteClass("navbar", NavbarPage, 'Navbar' )
+        new ElementRouteClass("navbar", NavbarPage, 'Navbar' ),
+        new ElementRouteClass("jumbotron", JumbotronPage, 'Jumbotron' ),
     ]
 
     return (

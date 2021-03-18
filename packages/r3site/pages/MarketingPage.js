@@ -3,7 +3,8 @@ import React from 'react'
 const MarketingPage = () => {
     return (
         <div>
-            This is the Marketing Page
+            <h1>R3 Elements</h1>
+            
         </div>
     )
 }

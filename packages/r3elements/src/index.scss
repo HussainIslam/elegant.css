@@ -408,3 +408,22 @@ h6 {
   @extend .button-dark-blue;
   margin: $padding-default;
 }
+
+.jumbotron{
+  width: 70vw;
+  margin: 3rem auto;
+  border: 1px solid $color-light-orange;
+  padding: $padding-high $padding-vvhigh;
+}
+
+.jumbo-header{
+
+}
+
+.jumbo-body{
+  margin: 2rem 0;
+}
+
+.jumbo-footer{
+  margin: 2rem 0;
+}
