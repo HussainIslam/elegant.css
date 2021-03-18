@@ -5,6 +5,7 @@ import CardPage from './CardPage'
 import BreadcrumbPage from './BreadcrumbPage'
 import NavbarPage from './NavbarPage'
 import JumbotronPage from './JumbotronPage'
+import HtmlTagsPage from './HtmlTagsPage'
 
 
 const ElementsPage = () => {
@@ -24,11 +25,11 @@ const ElementsPage = () => {
         new ElementRouteClass("breadcrumbs", BreadcrumbPage, "Breadcrumb"),
         new ElementRouteClass("navbar", NavbarPage, 'Navbar' ),
         new ElementRouteClass("jumbotron", JumbotronPage, 'Jumbotron' ),
+        new ElementRouteClass("tags", HtmlTagsPage, 'Html Tags' ),
     ]
 
     return (
         <div>
-            <h1>This is R3Elements page</h1>
             <ul>
                 {
                     elements_route.map(route=><li><Link to={`${url}/${route.path}`}>{route.name}</Link></li>)
