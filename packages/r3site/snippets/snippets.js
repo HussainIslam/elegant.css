@@ -29,3 +29,18 @@ export const Breadcrumb = ({ items = [] }) => (
         }
     </ul>
 )
+
+export const Navbar= ({ items = [] }) => (
+    <ul className="navbar outline">
+        {
+            items.length > 0 ?
+            items.map((item, index) => (
+                <li 
+                    className={`nav-item ${index == items.length - 1 ? "active" : ""}`}
+                >
+                        {item} {index == items.length - 1 ? "" : ""}
+                </li>
+            )) : null
+        }
+    </ul>
+)

@@ -387,3 +387,24 @@ h6 {
 .bread-item{
   margin-right: 0.75rem;
 }
+
+.navbar{
+  list-style-type: none;
+  display: flex;
+}
+
+.navbar.outline{
+  .nav-item{
+    @extend .button-outline-dark-blue;
+  }
+}
+
+.nav-item *{
+  text-decoration: none;
+  color: $color-white;
+}
+
+.nav-item{
+  @extend .button-dark-blue;
+  margin: $padding-default;
+}
