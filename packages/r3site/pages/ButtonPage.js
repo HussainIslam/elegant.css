@@ -1,6 +1,6 @@
 import React from 'react'
 import Example from '../components/Example'
-import { Card, Button } from '../snippets/snippets/'
+import { Button } from '../snippets/snippets/'
 
 const ButtonPage = () => {
     class ButtonClass {
@@ -46,7 +46,7 @@ const ButtonPage = () => {
     return (
         <div>
             {
-                buttons.map(button=><Example>{ <Card text={button.text} classes={button.classes} /> }</Example>)
+                buttons.map(button=><Example>{ <Button text={button.text} classes={button.classes} /> }</Example>)
             }
         </div>
     )
