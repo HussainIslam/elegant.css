@@ -18,6 +18,7 @@
     "react": "^16.13.1 || ^17.0.0",
     "react-dom": "^17.0.1",
     "react-highlight": "^0.14.0",
+    "react-router-dom": "^5.2.0",
     "refactor": "^0.0.3"
   },
   "devDependencies": {
