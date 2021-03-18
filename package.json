@@ -12,6 +12,7 @@
     "start": "cd packages/r3site && yarn start",
     "build": "rm -rf ./docs && cd packages/r3site && yarn build",
     "bp": "yarn workspace r3elements build",
-    "pub": "cd packages/r3elements && npm login && npm publish"
+    "npm-pub": "cd packages/r3elements && npm login && npm publish",
+    "yarn-pub": "cd packages/r3elements && yarn login && yarn publish"
   }
 }
