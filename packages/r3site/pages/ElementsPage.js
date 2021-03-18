@@ -30,6 +30,7 @@ const ElementsPage = () => {
 
     return (
         <div>
+            <p>Select one to see details</p>
             <ul>
                 {
                     elements_route.map(route=><li><Link to={`${url}/${route.path}`}>{route.name}</Link></li>)
