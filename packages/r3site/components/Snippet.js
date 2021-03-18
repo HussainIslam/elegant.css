@@ -4,7 +4,7 @@ import { renderToStaticMarkup } from 'react-dom/server'
 
 const Snippet = ({ children }) => {
     return (
-        <Highlight className="html">
+        <Highlight language="html">
             { renderToStaticMarkup(children) }
         </Highlight>
     )

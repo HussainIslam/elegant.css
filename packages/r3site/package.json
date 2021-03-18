@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@mdx-js/react": "^1.6.22",
+    "high": "^0.0.4",
     "nor": "^0.1.22",
     "normalize.css": "^8.0.1",
     "r3elements": "*",

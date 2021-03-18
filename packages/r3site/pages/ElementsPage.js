@@ -1,6 +1,8 @@
 import React from 'react'
 import { Switch, Route, Link, useRouteMatch } from 'react-router-dom'
 import ButtonPage from './ButtonPage'
+import CardPage from './CardPage'
+import BreadcrumbPage from './BreadcrumbPage'
 
 const ElementsPage = () => {
     const { path, url } = useRouteMatch();
@@ -14,8 +16,9 @@ const ElementsPage = () => {
     }
 
     const elements_route = [
-        new ElementRouteClass("", <div>Please select an element</div>, "Elements Home"),
         new ElementRouteClass("buttons", ButtonPage, "Buttons"),
+        new ElementRouteClass("cards", CardPage, "Cards"),
+        new ElementRouteClass("breadcrumbs", BreadcrumbPage, "Breadcrumb"),
     ]
 
     return (

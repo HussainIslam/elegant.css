@@ -1,8 +1,10 @@
 @import "./variables";
 @import "./calculated";
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap');
 
 html {
-  font-size: $font-size-baseline;
+  font-size: $font-size-base;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 h1 {
@@ -30,18 +32,6 @@ h5 {
 h6 {
   color: mix($color-primary, $color-secondary, 100%);
   font-size: 1.25rem;
-}
-
-.card {
-  border: 2px solid #2d2d2d;
-  padding: 5px;
-  margin: 5px;
-  border-radius: 4px;
-
-  &:hover {
-    background-color: #eeeeee;
-    cursor: pointer;
-  }
 }
 
 .columns {
@@ -360,4 +350,40 @@ h6 {
   &:hover{
     background-color: $color-light-green;
   }
+}
+
+.card{
+  width: 16rem;
+  border: 1px solid $color-light-gray;
+}
+
+.card-header{
+  padding: $padding-vvhigh 0;
+  text-align: center;
+  background-color: lightgray;
+}
+
+.card-body{
+  padding: $padding-low;
+}
+
+.card-title{
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 0.7rem 0;
+}
+
+.card-footer{
+  padding: 0.5rem;
+}
+
+.breadcrumb{
+  list-style-type: none;
+  display: flex;
+  padding: $padding-default;
+  border: 1px solid $color-light-gray;
+}
+
+.bread-item{
+  margin-right: 0.75rem;
 }

@@ -17,9 +17,19 @@ $color-light-pink: #f8a1d1;
 $color-light-purple: #93329e;
 $color-black: #000000;
 $color-white: #ffffff;
+$color-light-gray: #D3D3D3;
 
 
-$font-size-baseline: 18px;
+$padding-default: 0.5rem;
+$padding-high: 1rem;
+$padding-low: 0.25rem;
+$padding-vhigh: 2rem;
+$padding-vvhigh: 3rem;
+
+$font-size-base: 1.1rem;
+$font-size-small: 0.8rem;
+$font-size-large: 1.4rem;
+
 
 // @mixin columns() {
 //   display: flex;
