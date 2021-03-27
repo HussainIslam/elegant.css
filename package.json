@@ -1,5 +1,5 @@
 {
-  "name": "elements",
+  "name": "elegantcssproject",
   "version": "1.0.0",
   "main": "index.js",
   "author": "Hussain Sajib",
@@ -11,7 +11,7 @@
   "scripts": {
     "start": "cd packages/site && yarn start",
     "build": "rm -rf ./docs && cd packages/site && yarn build",
-    "bp": "yarn workspace elements build",
-    "npm-pub": "cd packages/elements && npm login && npm publish"
+    "bp": "yarn workspace elegantcss build",
+    "npm-pub": "cd packages/elegantcss && npm login && npm publish"
   }
 }

@@ -1,7 +1,7 @@
 {
-  "name": "elements",
-  "version": "1.0.1",
-  "main": "src/elements.css",
+  "name": "elegantcss",
+  "version": "0.0.1",
+  "main": "elegantcss.css",
   "author": "Hussain Sajib",
   "license": "MIT",
   "scripts": {

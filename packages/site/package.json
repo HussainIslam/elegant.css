@@ -1,5 +1,5 @@
 {
-  "name": "elementsite",
+  "name": "site",
   "version": "1.0.0",
   "main": "index.js",
   "author": "Hussain Sajib",
@@ -11,15 +11,17 @@
   "dependencies": {
     "@mdx-js/react": "^1.6.22",
     "high": "^0.0.4",
+    "elegantcss": "*",
     "nor": "^0.1.22",
     "normalize.css": "^8.0.1",
-    "r3elements": "*",
+    "pri": "^4.3.6",
     "rea": "^0.0.1",
     "reac": "^0.0.0",
     "react": "^16.13.1 || ^17.0.0",
     "react-dom": "^17.0.1",
     "react-highlight": "^0.14.0",
     "react-router-dom": "^5.2.0",
+    "react-syntax-highlighter": "^15.4.3",
     "refactor": "^0.0.3"
   },
   "devDependencies": {
