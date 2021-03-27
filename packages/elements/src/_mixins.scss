@@ -1,0 +1,28 @@
+@import "./variables";
+
+@mixin generate-button($color, $filled){
+    padding: 0.5rem 1rem;
+    width: max-content;
+    border: 1px solid $color;
+    
+    @if $filled == 'true'{
+        background-color: $color;
+        color: $color-white;
+    }
+    @else{
+        background-color: $color-white;
+        color: $color;
+    }
+    
+    &:hover{
+      cursor: pointer;
+      @if $filled == 'true' {
+        background-color: $color-white;
+        color: $color;
+      }
+      @else{
+          background-color: $color;
+          color: $color-white;
+      }
+    }
+}

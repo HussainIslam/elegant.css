@@ -1,23 +1,11 @@
-$color-primary: pink;
-$color-secondary: green;
-
-$color-dark-green: #007965;
-$color-dark-red: #8c0000;
-$color-dark-blue: #28527a;
-$color-dark-orange: #e45826;
-$color-dark-yellow: #f0a500;
-$color-dark-pink: #b34180;
-$color-dark-purple: #440a67;
-$color-light-green: #00af91;
-$color-light-red: #f05454;
-$color-light-blue: #8ac4d0;
-$color-light-orange: #ef8d32;
-$color-light-yellow: #f9f871;
-$color-light-pink: #f8a1d1;
-$color-light-purple: #93329e;
+$color-green: #007965;
+$color-red: #8c0000;
+$color-blue: #28527a;
+$color-orange: #e45826;
+$color-pink: #b34180;
 $color-black: #000000;
 $color-white: #ffffff;
-$color-light-gray: #D3D3D3;
+$color-gray: #D3D3D3;
 
 
 $padding-low: 0.25rem;
@@ -30,12 +18,3 @@ $font-size-base: 1.1rem;
 $font-size-small: 0.8rem;
 $font-size-large: 1.4rem;
 
-
-// @mixin columns() {
-//   display: flex;
-//   flex-direction: column;
-// }
-// @mixin rows() {
-//   display: flex;
-//   flex-direction: row;
-// }
