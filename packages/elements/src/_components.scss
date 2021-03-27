@@ -1,0 +1,126 @@
+@import "./mixins";
+@import './variables';
+
+.button{
+  @include generate-button($color-black, 'true')
+}
+
+.button-outline{
+  @include generate-button($color-black, 'false')
+}
+
+.button-green{
+  @include generate-button($color-green, 'true');
+}
+
+.button-red{
+  @include generate-button($color-red, 'true');
+}
+
+.button-blue{
+  @include generate-button($color-blue, 'true');
+}
+
+.button-orange{
+  @include generate-button($color-orange, 'true')
+}
+
+.button-pink{
+  @include generate-button($color-pink, 'true')
+}
+
+.button-outline-green{
+  @include generate-button($color-green, 'false')
+}
+
+.button-outline-red{
+  @include generate-button($color-red, 'false')  
+}
+
+.button-outline-blue{
+  @include generate-button($color-blue, 'false')
+}
+
+.button-outline-orange{
+  @include generate-button($color-orange, 'false')
+}
+
+.button-outline-pink{
+  @include generate-button($color-pink, 'false')
+}
+
+.card{
+  width: 16rem;
+  border: 1px solid $color-gray;
+}
+
+.card-header{
+  padding: $padding-vvhigh 0;
+  text-align: center;
+  background-color: $color-gray
+}
+
+.card-body{
+  padding: $padding-low;
+}
+
+.card-title{
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 0.7rem 0;
+}
+
+.card-footer{
+  padding: 0.5rem;
+}
+
+.breadcrumb{
+  list-style-type: none;
+  display: flex;
+  padding: $padding-default;
+  border: 1px solid $color-gray;
+}
+
+.bread-item{
+  margin-right: 0.75rem;
+}
+
+.navbar{
+  list-style-type: none;
+  display: flex;
+}
+
+.navbar.outline{
+  .nav-item{
+    @extend .button;
+  }
+}
+
+.nav-item *{
+  text-decoration: none;
+  color: $color-white;
+}
+
+.nav-item{
+  @extend .button;
+  margin: $padding-default;
+}
+
+.jumbotron{
+  width: 100%;
+  margin: 3rem auto;
+  padding: $padding-high $padding-vvhigh;
+  box-shadow: 0 0 5px 2px $color-gray;
+  
+  .jumbo-header{
+    @extend h1;
+  }
+  
+  .jumbo-body{
+    margin: 2rem 0;
+  }
+  
+  .jumbo-footer{
+    margin: 2rem 0;
+  }
+}

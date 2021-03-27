@@ -1,0 +1,71 @@
+@import './variables';
+
+html {
+  font-size: $font-size-base;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+body {
+  width: 60vw;
+  margin: 0 auto;
+}
+
+h1 {
+  color: $color-orange;
+  font-size: 3rem;
+}
+
+h2 {
+  color: $color-orange;
+  font-size: 2.4rem;
+}
+
+h3 {
+  color: $color-orange;
+  font-size: 2rem;
+}
+h4 {
+  color: $color-orange;
+  font-size: 1.65rem;
+}
+h5 {
+  color: $color-orange;
+  font-size: 1.5rem;
+}
+h6 {
+  color: $color-orange;
+  font-size: 1.25rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+}
+
+a {
+  text-decoration: none;
+  color: $color-pink;
+}
+
+aside {
+  opacity: 0.3;
+}
+
+section {
+  background-color: cadetblue;
+  width: min-content;
+}
+
+header {
+  color: black;
+  font-size: 1rem;
+  text-align: left;
+  border-bottom: black solid 1px;
+}
+footer {
+  color: black;
+  font-size: 1rem;
+  text-align: right;
+  border-top: black solid 1px;
+}
