@@ -1,8 +1,8 @@
 {
-  "name": "r3site",
+  "name": "elementsite",
   "version": "1.0.0",
   "main": "index.js",
-  "author": "Reactive3 - Hussain and Rahul",
+  "author": "Hussain Sajib",
   "license": "MIT",
   "scripts": {
     "start": "parcel serve index.html --no-autoinstall",

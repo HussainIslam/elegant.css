@@ -1,18 +1,17 @@
 {
-  "name": "r3elements",
+  "name": "elements",
   "version": "1.0.0",
   "main": "index.js",
-  "author": "Reactive3 - Hussain and Rahul",
+  "author": "Hussain Sajib",
   "private": true,
   "license": "MIT",
   "workspaces": [
     "packages/*"
   ],
   "scripts": {
-    "start": "cd packages/r3site && yarn start",
-    "build": "rm -rf ./docs && cd packages/r3site && yarn build",
-    "bp": "yarn workspace r3elements build",
-    "npm-pub": "cd packages/r3elements && npm login && npm publish",
-    "yarn-pub": "cd packages/r3elements && yarn login && yarn publish"
+    "start": "cd packages/site && yarn start",
+    "build": "rm -rf ./docs && cd packages/site && yarn build",
+    "bp": "yarn workspace elements build",
+    "npm-pub": "cd packages/elements && npm login && npm publish"
   }
 }

@@ -1,6 +1,6 @@
-# BYOB.css
+# Elements.css
 
-BYOB.css is an starter CSS framework built for [Mintbean Learnathon #82 - Build Your Own Bootstrap](https://mintbean.io/meets/4b9cd41c-4a27-4c08-a493-3095f9fe2b20).
+Elements.css is an starter CSS framework built for [Mintbean Learnathon #82 - Build Your Own Bootstrap](https://mintbean.io/meets/4b9cd41c-4a27-4c08-a493-3095f9fe2b20).
 
 # Local deployment
 
