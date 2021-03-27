@@ -10,10 +10,11 @@
   },
   "dependencies": {
     "@mdx-js/react": "^1.6.22",
-    "high": "^0.0.4",
     "elegantcss": "*",
+    "high": "^0.0.4",
     "nor": "^0.1.22",
     "normalize.css": "^8.0.1",
+    "prettier": "^2.2.1",
     "pri": "^4.3.6",
     "rea": "^0.0.1",
     "reac": "^0.0.0",

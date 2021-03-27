@@ -4,7 +4,7 @@ import Snippet from './Snippet'
 
 const Example = ({ children }) => {
     return (
-        <div>
+        <div style={{ margin: '3rem 0' }}>
             <Preview>{ children }</Preview>
             <Snippet>{ children }</Snippet>
         </div>
