@@ -131,31 +131,40 @@
     background-color: #b34180;
     color: #ffffff; }
 
+.button-outline-gray {
+  padding: 0.5rem 1rem;
+  width: max-content;
+  border: 1px solid #888888;
+  background-color: #ffffff;
+  color: #888888; }
+  .button-outline-gray:hover {
+    cursor: pointer;
+    background-color: #888888;
+    color: #ffffff; }
+
 .card {
   width: 16rem;
-  border: 1px solid #D3D3D3; }
-
-.card-header {
-  padding: 3rem 0;
-  text-align: center;
-  background-color: #D3D3D3; }
-
-.card-body {
-  padding: 0.25rem; }
-
-.card-title {
-  font-size: 1.2rem;
-  font-weight: bold;
-  margin: 0.7rem 0; }
-
-.card-footer {
-  padding: 0.5rem; }
+  border: 1px solid #888888; }
+  .card .card-header {
+    padding: 3rem 0;
+    text-align: center;
+    background-color: #e45826; }
+  .card .card-body {
+    padding: 0.25rem; }
+    .card .card-body .card-title {
+      font-size: 1.2rem;
+      font-weight: bold;
+      margin: 0.7rem 0; }
+    .card .card-body .card-text {
+      font-size: 1rem; }
+  .card .card-footer {
+    padding: 0.5rem; }
 
 .breadcrumb {
   list-style-type: none;
   display: flex;
   padding: 0.5rem;
-  border: 1px solid #D3D3D3; }
+  border: 1px solid #888888; }
 
 .bread-item {
   margin-right: 0.75rem; }
@@ -175,7 +184,7 @@
   width: 100%;
   margin: 3rem auto;
   padding: 1rem 3rem;
-  box-shadow: 0 0 5px 2px #D3D3D3; }
+  box-shadow: 0 0 5px 2px #888888; }
   .jumbotron .jumbo-body {
     margin: 2rem 0; }
   .jumbotron .jumbo-footer {

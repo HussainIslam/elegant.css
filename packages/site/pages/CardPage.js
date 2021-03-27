@@ -14,11 +14,10 @@ const CardPage = () => {
     )
 
     const CardFooter = () => (
-        <Button text="Do Something" classes="button-dark-blue" />
+        <Button text="Do Something" classes="button-blue" />
     )
 
     return (
-        
         <div>
             <Example>
                 <Card 

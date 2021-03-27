@@ -1,6 +1,7 @@
 @import "./mixins";
 @import './variables';
 
+// ******************* Buttons *******************
 .button{
   @include generate-button($color-black, 'true')
 }
@@ -49,30 +50,41 @@
   @include generate-button($color-pink, 'false')
 }
 
+.button-outline-gray{
+  @include generate-button($color-gray, 'false')
+}
+
+// ******************* Card *******************
 .card{
   width: 16rem;
   border: 1px solid $color-gray;
+  
+  .card-header{
+    padding: $padding-vvhigh 0;
+    text-align: center;
+    background-color: $color-orange
+  }
+
+  .card-body{
+    padding: $padding-low;
+
+    .card-title{
+      font-size: 1.2rem;
+      font-weight: bold;
+      margin: 0.7rem 0;
+    }
+
+    .card-text{
+      font-size: 1rem;
+    }
+  }
+
+  .card-footer{
+    padding: 0.5rem;
+  }
 }
 
-.card-header{
-  padding: $padding-vvhigh 0;
-  text-align: center;
-  background-color: $color-gray
-}
-
-.card-body{
-  padding: $padding-low;
-}
-
-.card-title{
-  font-size: 1.2rem;
-  font-weight: bold;
-  margin: 0.7rem 0;
-}
-
-.card-footer{
-  padding: 0.5rem;
-}
+// ******************* Breadcrumb *******************
 
 .breadcrumb{
   list-style-type: none;
@@ -85,6 +97,7 @@
   margin-right: 0.75rem;
 }
 
+// ******************* Navbar *******************
 .navbar{
   list-style-type: none;
   display: flex;
@@ -106,6 +119,7 @@
   margin: $padding-default;
 }
 
+// ******************* Jumbotron *******************
 .jumbotron{
   width: 100%;
   margin: 3rem auto;
