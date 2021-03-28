@@ -65,3 +65,18 @@ export const Jumbotron = ({ header, body, footer }) => {
         <Container classes="jumbotron" ><Content /></Container>    
     )
 }
+
+export const Alert = ({ header, message, footer, classes }) => {
+    const Header = () => <div className="alert-header">{ header }</div>
+    const Message = () => <div className="alert-body">{ message }</div>
+    const Footer = () => <div className="alert-footer">{ footer }</div>
+    const Content = () => (
+        <>
+            { header ? <Header /> : null }
+            <Message />
+            { footer ? <Footer /> : null }
+        </>
+    )
+    return <Container classes={ classes }><Content /></Container>
+
+}

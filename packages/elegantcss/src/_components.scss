@@ -138,3 +138,32 @@
     margin: 2rem 0;
   }
 }
+
+// ******************* Alerts *******************
+.alert{
+  @include generate-alert($color-blue)
+}
+
+.alert-green{
+  @include generate-alert($color-green);
+}
+
+.alert-red{
+  @include generate-alert($color-red);
+}
+
+.alert-blue{
+  @include generate-alert($color-blue);
+}
+
+.alert-orange{
+  @include generate-alert($color-orange);
+}
+
+.alert-pink{
+  @include generate-alert($color-pink);
+}
+
+.alert-gray{
+  @include generate-alert($color-gray);
+}

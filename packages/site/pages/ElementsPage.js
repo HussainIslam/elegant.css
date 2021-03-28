@@ -6,6 +6,7 @@ import BreadcrumbPage from './BreadcrumbPage'
 import NavbarPage from './NavbarPage'
 import JumbotronPage from './JumbotronPage'
 import HtmlTagsPage from './HtmlTagsPage'
+import AlertPage from './AlertPage'
 
 
 const ElementsPage = () => {
@@ -26,6 +27,7 @@ const ElementsPage = () => {
         new ElementRouteClass("navbar", NavbarPage, 'Navbar' ),
         new ElementRouteClass("jumbotron", JumbotronPage, 'Jumbotron' ),
         new ElementRouteClass("tags", HtmlTagsPage, 'Html Tags' ),
+        new ElementRouteClass('alert', AlertPage, 'Alerts')
     ]
 
     return (

@@ -18,7 +18,7 @@ const JumbotronPage = () => {
             urna vitae tellus feugiat scelerisque nec et purus. Nullam 
             bibendum dictum lorem, sed tincidunt enim scelerisque commodo. 
             Sed sed accumsan nisi. Duis varius tortor sed eros pellentesque ornare.`
-        const Footer = () => <div className="button-light-orange">Go Somewhere</div>
+        const Footer = () => <div className="button-orange">Go Somewhere</div>
     
     return (
         <Example>
