@@ -80,3 +80,7 @@ export const Alert = ({ header, message, footer, classes }) => {
     return <Container classes={ classes }><Content /></Container>
 
 }
+
+export const SpanContainer = ({ children, classes }) => (
+    <span className={ classes }>{ children }</span>
+)

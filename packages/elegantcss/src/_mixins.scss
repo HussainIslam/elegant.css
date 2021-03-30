@@ -48,3 +48,20 @@
     padding-top: 0.5rem;
   }
 }
+
+@mixin generate-badge($color, $outline) {
+  border: 1px solid $color;
+  font-size: 0.7rem;
+  width: fit-content;
+
+  @if $outline == 'true' {
+    background-color: $color-white;
+    color: $color;
+  }
+  @else {
+    background-color: $color;
+    color: $color-white;
+  }
+  
+  
+}
