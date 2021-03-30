@@ -295,6 +295,104 @@
     border-top: 1px solid #888888;
     padding-top: 0.5rem; }
 
+.badge-green {
+  border: 1px solid #007965;
+  font-size: 0.7rem;
+  width: fit-content;
+  background-color: #007965;
+  color: #ffffff; }
+
+.badge-red {
+  border: 1px solid #8c0000;
+  font-size: 0.7rem;
+  width: fit-content;
+  background-color: #8c0000;
+  color: #ffffff; }
+
+.badge-blue {
+  border: 1px solid #28527a;
+  font-size: 0.7rem;
+  width: fit-content;
+  background-color: #28527a;
+  color: #ffffff; }
+
+.badge-orange {
+  border: 1px solid #e45826;
+  font-size: 0.7rem;
+  width: fit-content;
+  background-color: #e45826;
+  color: #ffffff; }
+
+.badge-pink {
+  border: 1px solid #b34180;
+  font-size: 0.7rem;
+  width: fit-content;
+  background-color: #b34180;
+  color: #ffffff; }
+
+.badge-black {
+  border: 1px solid #000000;
+  font-size: 0.7rem;
+  width: fit-content;
+  background-color: #000000;
+  color: #ffffff; }
+
+.badge-gray {
+  border: 1px solid #888888;
+  font-size: 0.7rem;
+  width: fit-content;
+  background-color: #888888;
+  color: #ffffff; }
+
+.badge-outline-green {
+  border: 1px solid #007965;
+  font-size: 0.7rem;
+  width: fit-content;
+  background-color: #ffffff;
+  color: #007965; }
+
+.badge-outline-red {
+  border: 1px solid #8c0000;
+  font-size: 0.7rem;
+  width: fit-content;
+  background-color: #ffffff;
+  color: #8c0000; }
+
+.badge-outline-blue {
+  border: 1px solid #28527a;
+  font-size: 0.7rem;
+  width: fit-content;
+  background-color: #ffffff;
+  color: #28527a; }
+
+.badge-outline-orange {
+  border: 1px solid #e45826;
+  font-size: 0.7rem;
+  width: fit-content;
+  background-color: #ffffff;
+  color: #e45826; }
+
+.badge-outline-pink {
+  border: 1px solid #b34180;
+  font-size: 0.7rem;
+  width: fit-content;
+  background-color: #ffffff;
+  color: #b34180; }
+
+.badge-outline-black {
+  border: 1px solid #000000;
+  font-size: 0.7rem;
+  width: fit-content;
+  background-color: #ffffff;
+  color: #000000; }
+
+.badge-outline-gray {
+  border: 1px solid #888888;
+  font-size: 0.7rem;
+  width: fit-content;
+  background-color: #ffffff;
+  color: #888888; }
+
 html {
   font-size: 1.1rem;
   font-family: 'Source Sans Pro', sans-serif; }

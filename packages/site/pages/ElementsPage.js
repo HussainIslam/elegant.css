@@ -7,7 +7,7 @@ import NavbarPage from './NavbarPage'
 import JumbotronPage from './JumbotronPage'
 import HtmlTagsPage from './HtmlTagsPage'
 import AlertPage from './AlertPage'
-
+import BadgePage from './BadgePage';
 
 const ElementsPage = () => {
     const { path, url } = useRouteMatch();
@@ -27,7 +27,8 @@ const ElementsPage = () => {
         new ElementRouteClass("navbar", NavbarPage, 'Navbar' ),
         new ElementRouteClass("jumbotron", JumbotronPage, 'Jumbotron' ),
         new ElementRouteClass("tags", HtmlTagsPage, 'Html Tags' ),
-        new ElementRouteClass('alert', AlertPage, 'Alerts')
+        new ElementRouteClass('alert', AlertPage, 'Alerts'),
+        new ElementRouteClass('badge', BadgePage, 'Badges')
     ]
 
     return (

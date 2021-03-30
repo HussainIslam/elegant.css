@@ -167,3 +167,60 @@
 .alert-gray{
   @include generate-alert($color-gray);
 }
+
+// ******************* Badges *******************
+.badge-green{
+  @include generate-badge($color-green, 'false');
+}
+
+.badge-red{
+  @include generate-badge($color-red, 'false');
+}
+
+.badge-blue{
+  @include generate-badge($color-blue, 'false');
+}
+
+.badge-orange{
+  @include generate-badge($color-orange, 'false');
+}
+
+.badge-pink{
+  @include generate-badge($color-pink, 'false');
+}
+
+.badge-black{
+  @include generate-badge($color-black, 'false');
+}
+
+.badge-gray{
+  @include generate-badge($color-gray, 'false');
+}
+
+.badge-outline-green{
+  @include generate-badge($color-green, 'true');
+}
+
+.badge-outline-red{
+  @include generate-badge($color-red, 'true');
+}
+
+.badge-outline-blue{
+  @include generate-badge($color-blue, 'true');
+}
+
+.badge-outline-orange{
+  @include generate-badge($color-orange, 'true');
+}
+
+.badge-outline-pink{
+  @include generate-badge($color-pink, 'true');
+}
+
+.badge-outline-black{
+  @include generate-badge($color-black, 'true');
+}
+
+.badge-outline-gray{
+  @include generate-badge($color-gray, 'true');
+}
